@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Photography</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: sans-serif;
+		}
+
+		.header {
+			background-color: #333;
+			color: white;
+			padding: 20px;
+			text-align: center;
+		}
+
+		.main {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			padding: 20px;
+		}
+
+		.photo {
+			flex: 0 0 33.3333%;
+			padding: 10px;
+			box-sizing: border-box;
+		}
+
+		.photo img {
+			width: 100%;
+			height: auto;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1>My Photography</h1>
+	</div>
+	<div class="main">
+		<div class="photo">
+			<img src="image1.jpg" alt="A beautiful landscape">
+		</div>
+		<div class="photo">
+			<img src="image2.jpg" alt="A cute animal">
+		</div>
+		<div class="photo">
+			<img src="image3.jpg" alt="A stunning sunset">
+		</div>
+	</div>
+</body>
+</html>
